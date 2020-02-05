@@ -58,9 +58,11 @@ function App() {
   );
 }
 
-function Meme({images, title}){
+function Meme({images, title, url}){
   return <div className="meme">
-    <img src={images.fixed_height.url} alt="meme" />
+    <td onClick={()=> window.open(url, "_blank")}>
+      <img src={images.fixed_height.url} alt="meme" />
+    </td>
     <div className="meme-title">{title}</div>
   </div>
 }
