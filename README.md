@@ -1,3 +1,5 @@
-GIF search application running on Firebase. https://memesearch2020.web.app/
+GIF search application running on Firebase. 
+
+https://memesearch2020.web.app/
 
 CMO
